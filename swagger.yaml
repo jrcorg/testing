@@ -52,7 +52,7 @@ paths:
           schema:
             $ref: '#/definitions/Error'
     post:
-      description: Creates a new pet in the store.  Duplicates are allowed
+      description: Convert stuff.
       operationId: addPet
       parameters:
         - name: pet
